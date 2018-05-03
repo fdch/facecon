@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+/Applications/Pd-0.48-1-i386.app/Contents/Resources/bin/pd -nogui main_gem.pd &
+sleep 2
+/Applications/Pd-0.48-1.app/Contents/Resources/bin/pd main.pd
